@@ -1,0 +1,108 @@
+h1 {
+    color: #800000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+body{
+    background-color: lightgray;
+    background-image: url("chips.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    background-color: white;
+    width: 300px;
+    border: 15px solid #800000;
+    padding: 50px;
+    margin: 0 auto;
+  }
+.container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #800000;
+    text-align: center;
+  }
+  
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;    
+    background-color: #800000;
+    
+  }
+  
+
+  .container:hover input ~ .checkmark {
+    background-color: #800000;
+  }
+  
+
+  .container input:checked ~ .checkmark {
+    background-color: #CC5500;
+  }
+
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .link {
+    color: #CC5500; 
+  }
+  .button1{
+    position: relative;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #CC5500;
+    background-color: #CC5500;
+    color: white;
+    padding: 10px;
+    top: 60%;
+    left: 42.5%
+}
+
+.button1:hover {
+    background-color: #800000;
+    border-color: #800000;
+    color: white;
+}
