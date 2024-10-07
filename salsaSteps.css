@@ -1,0 +1,82 @@
+h1 {
+    color: #800000;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+body{
+    background-color: lightgray;
+    background-image: url("chips.jpeg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .button1{
+    position: relative;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #CC5500;
+    background-color: #CC5500;
+    color: white;
+    padding: 10px;
+    top: 95%;
+    left: 20%;
+}
+
+.button1:hover {
+    background-color: #800000;
+    border-color: #800000;
+    color: white;
+}
+.button2{
+    position: relative;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #CC5500;
+    background-color: #CC5500;
+    color: white;
+    padding: 10px;
+    top: 95%;
+    left: 70%;
+}
+
+.button2:hover {
+    background-color: #800000;
+    border-color: #800000;
+    color: white;
+}
+
+video{
+  height: 70%;
+  width: 70%;
+  display: block;
+  margin: auto;
+}
+
+#timer {
+    font-family: Arial, sans-serif;
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+.button3{
+    position: relative;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #CC5500;
+    background-color: #CC5500;
+    color: white;
+    padding: 10px;
+    top: 95%;
+    left: 20%;
+  }
+  
+  .button3:hover {
+    background-color: #800000;
+    border-color: #800000;
+    color: white;
+  }
