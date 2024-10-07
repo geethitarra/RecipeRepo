@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Cucumber Salad Ingredients!</title>
+    <link rel="stylesheet" href="cucumber.css">
+    <script src="cucingredients.js"></script>
+    <h1 style = "background-color: white">Cucumber Salad Ingredients</h1>
+
+
+</head>
+
+<body>
+    
+    <div> 
+        <label class="container"> 4 Persian Cucumbers
+            <input type="checkbox" id="cucumbers" name="cucumbers" required>
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Rice vinegar
+            <input type="checkbox" id= "riceVinegar" name="riceVinegar">
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Salt
+            <input type="checkbox" id= "salt" name="salt" required>
+            <span class="checkmark"></span>
+        </label>
+        
+        <label class="container">Sugar
+            <input type="checkbox"id= "sugar" name="sugar" required>
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Sesame Oil
+            <input type="checkbox" id= "sesameOil" name="sesameOil">
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Garlic
+            <input type="checkbox" id= "garlic" name="garlic" required>
+            <span class="checkmark"></span>
+        </label>
+
+        <label class="container">Chili Oil
+            <input type="checkbox" id= "chiliOil" name="chiliOil">
+            <span class="checkmark"></span>
+        </label>
+    </div>
+    <button class="button button1" onclick = "return validateForm()">Get cooking!</button>
+</body>
+</html>
