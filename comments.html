@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Reviews & Comments</title>
+    <link rel="stylesheet" href="review.css">
+	<script src="comments.js"></script>
+    
+    <h1><span style="background-color:#d9c0a2">Add your ratings of recipe and reviews!</span></h1>
+</head>
+<body>
+
+	<form>
+        
+		<label for="username"><span style="background-color:#d9c0a2">Name:</span></label>
+		<input type="text" id="username" name="username"><br>
+
+		<label for="comment"><span style="background-color:#d9c0a2">Comment:</span></label>
+		<textarea id="comment" name="comment"></textarea><br>
+        <div class="center-text">
+		    <input type="button" value="Submit" onclick="addComment()">
+        </div>
+	</form>
+
+	<div id="comments">
+	</div>
+
+</body>
+</html>
