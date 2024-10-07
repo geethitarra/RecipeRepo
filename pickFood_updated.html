@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Choose a food</title>
+    <link rel="stylesheet" href="pickFood_updated.css">
+    <script src="ingredientsRedirect.js"></script> 
+
+</head>
+<body>
+    <h2>Choose a Recipe</h2> <!--Flip card styling credited to https://www.w3schools.com/howto/howto_css_flip_card.asp-->
+    <div class="container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="chips.jpeg" class="chips">
+              </div>
+            <div class="flip-card-back">
+              <h1>Chips & Salsa</h1> 
+              <p>Chips and salsa is a popular snack or appetizer in many parts of the world, particularly in Latin American cuisine. The combination of the crispy tortilla and refreshing salsa serves as a great snack for parties, gatherings, or just as a quick and easy snack on the go!</p> 
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="muffins.jpeg" class="muffins">
+              </div>
+            <div class="flip-card-back">
+              <h1>Banana Blueberry Muffins</h1>  
+              <p>Banana blueberry muffins are a delicious baked treat that combine the sweetness of ripe bananas with the tangy burst of blueberries, creating a moist and flavorful muffin that is perfect for breakfast!</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="tofu.jpeg" class="tofu">
+              </div>
+            <div class="flip-card-back">
+              <h1>Tofu Bell Pepper Stir Fry</h1> 
+              <p>Sliced tofu and bell peppers are stir-fried with various seasonings and sauces in a vegan dish called tofu bell pepper stir fry to produce a tasty and wholesome dinner!</p>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="salad.jpeg" class="salad">
+              </div>
+            <div class="flip-card-back">
+              <h1>Cucumber Salad</h1> 
+              <p>On a hot summer day or any special occasion, this Asian Cucumber Salad is an outstanding, flavorful appetizer of well-marinated cucumbers in chili oil.</p> 
+            </div>
+          </div>
+        </div>
+    </div>
+    <form action="javascript:redirect();">
+      <input type="radio" id="chips" name="food_choice" value="chips">
+      <label for="chips">Chips & Salsa</label>
+      <input type="radio" id="muffin" name="food_choice" value="muffin">
+      <label for="muffin">Banana Blueberry Muffins</label>
+      <input type="radio" id="tofu" name="food_choice" value="tofu">
+      <label for="tofu">Tofu Bell Pepper Stir Fry</label> 
+      <input type="radio" id="salad" name="food_choice" value="salad">
+      <label for="salad">Cucumber Salad</label> <br><br>
+        <button id = "buttonSubmit" class="button button2">Submit</button>
+        
+    </form>
+</body>
+</html>
